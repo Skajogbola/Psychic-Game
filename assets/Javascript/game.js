@@ -20,7 +20,7 @@ document.onkeyup = function (event) {
 
     // Determines which key was pressed.
     var userGuess = event.key;
-    userChoice = userChoice + " " + userGuess
+    userChoice = userChoice + ", " + userGuess
 
     // Randomly chooses a choice from the options array. This is the Computer's guess.
     var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
